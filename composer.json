@@ -1,0 +1,13 @@
+{
+    "name": "qyhj/package",
+    "description": "qyhj",
+    "authors": [
+        {
+            "name": "baiyunxin",
+            "email": "baiyunxin@hjygame.com"
+        }
+    ],
+    "type": "project",
+    "license": "qyhj",
+    "require": {}
+}
