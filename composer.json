@@ -1,13 +1,39 @@
 {
-    "name": "qyhj/package",
-    "description": "qyhj",
-    "authors": [
-        {
-            "name": "baiyunxin",
-            "email": "baiyunxin@hjygame.com"
-        }
+  "name": "qyhj/package",
+  "type": "library",
+  "description": "qyhj",
+  "keywords": [
+    "qyhj"
+  ],
+  "homepage": "http://www.qiyuyouxi.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "baiyunxin",
+      "email": "baiyunxin@hjygame.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+
+  },
+  "conflict": {
+
+  },
+  "suggest": {
+
+  },
+  "autoload": {
+    "files": [
+      "Resources/functions/dump.php"
     ],
-    "type": "project",
-    "license": "qyhj",
-    "require": {}
+    "psr-4": {
+      "Symfony\\Component\\VarDumper\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  }
 }
